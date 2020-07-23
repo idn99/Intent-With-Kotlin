@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_receive.ActivityReceive"
+    android:orientation="vertical"
+    android:background="@drawable/black_border"
+    android:padding="20dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_angka"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <RadioGroup
+         android:id="@+id/rg_number"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/_50"/>
+
+        <RadioButton
+            android:id="@+id/rb_100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/_100"/>
+
+        <RadioButton
+            android:id="@+id/rb_150"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/_150"/>
+
+        <RadioButton
+            android:id="@+id/rb_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/_200"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_pilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pilih_angka"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
